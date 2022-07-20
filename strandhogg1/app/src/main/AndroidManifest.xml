@@ -29,6 +29,8 @@
             android:allowTaskReparenting="true"
             android:taskAffinity="@string/target_package" />
 
+        <activity android:name=".FakeLoginFormActivity" />
+
     </application>
 
 </manifest>

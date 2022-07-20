@@ -14,7 +14,6 @@ class InoffensiveActivity : AppCompatActivity() {
         startActivityWithoutAnimation(Intent(this, FakeLoginActivity::class.java))
 
         // Random stuff on Inoffensive screen
-
         emoji.setOnClickListener {
             emoji.text = listOf(
                 "\uD83D\uDE0A",
