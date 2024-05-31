@@ -14,8 +14,10 @@ import static android.content.Intent.FLAG_RECEIVER_VISIBLE_TO_INSTANT_APPS;
 
 public class MainActivity extends AppCompatActivity {
 
-    String victimPackageName = "com.google.android.gm";
-    String victimActivity = "com.google.android.gm.GmailActivity";
+    //https://github.com/ActivityCounter/StrandHoggAttacks
+
+    String victimPackageName = "com.mhealth.manadr.dev";
+    String victimActivity = "com.mhealth.manadr.ui.home.SplashScreenActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
